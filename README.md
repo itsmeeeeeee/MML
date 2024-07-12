@@ -25,7 +25,7 @@ This section describes the distinct approaches taken in the project, each utiliz
 - **MMF (Multimodal Fusion without Self-Attention)**: Operates similarly to MMFA but removes the self-attention component, focusing on direct fusion of features. This approach also concludes with an ensemble method using majority voting.
 - **Sklearn Ensemble**: Utilizes a traditional machine learning approach with five common algorithms: Decision Tree, Multilayer Perceptron, Logistic Regression, Adaptive Boosting, and Support Vector Machine. Each model's results are then aggregated using an ensemble strategy (majority voting) to provide comparative insights against the deep learning methods.
   
-All models are executed within Google Colab, ensuring easy access and reproducibility. This setup allows for straightforward experimentation and adaptation, encouraging further exploration and validation of the models.
+All models are executed within Google Colab, ensuring easy access and reproducibility.
 
 ## Installation and Usage
 No installation is required as the project is developed in Google Colab. Users can access and execute all files directly in the Colab environment.
