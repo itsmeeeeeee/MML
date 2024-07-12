@@ -16,7 +16,7 @@ This project focuses on multimodal sentiment analysis using the Memotion dataset
 
 ## Feature Extraction
 - **File**: `Features_extraction.ipynb`
-- **Description**: This notebook details the process of extracting image and text features using pre-trained models, specifically BERT for text and ResNet-50 for images. This step is crucial for preparing the input data for subsequent classification models.
+- **Description**: This notebook details the process of extracting image and text features using pre-trained models, specifically BERT for text and ResNet-50 for images. 
 
 ## Implementation and Model Description
 This section describes the distinct approaches taken in the project, each utilizing multimodal fusion techniques and ensemble strategies to optimize performance.
