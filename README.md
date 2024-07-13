@@ -19,7 +19,6 @@ This project focuses on multimodal sentiment analysis using the Memotion dataset
 - **Description**: This notebook details the process of extracting image and text features using pre-trained models, specifically BERT for text and ResNet-50 for images. 
 
 ## Implementation and Model Description
-This section describes the distinct approaches taken in the project, each utilizing multimodal fusion techniques and ensemble strategies to optimize performance.
 
 - **MMFA (Multimodal Fusion with Self-Attention)**: This model incorporates self-attention mechanisms to better integrate and analyze the features extracted from both image and text data. Following the individual classifier predictions, an ensemble method using majority voting is applied to combine the results for enhanced accuracy.
 - **MMF (Multimodal Fusion without Self-Attention)**: Operates similarly to MMFA but removes the self-attention component, focusing on direct fusion of features. This approach also concludes with an ensemble method using majority voting.
@@ -68,5 +67,3 @@ The models were evaluated using accuracy and macro-average F1 scores:
 
 ## Conclusion and Observations
 Throughout the project, we observed that the models required a large dataset to perform optimally. Due to the size of the available dataset (approximately 4,791 entries after filtering out neutral sentiments), the ensemble approach, which ideally benefits from larger datasets, did not perform as expected. The approach itself is sound; however, the limited data volume may have constrained the effectiveness of the ensemble methods. For validation, we employed a 5-fold cross-validation technique to ensure the robustness and generalizability of our models across different subsets of data.
-
-This insight highlights the importance of data volume in training complex models and suggests areas for future improvement, such as acquiring more data or refining the models to better handle smaller datasets.
