@@ -67,3 +67,11 @@ The models were evaluated using accuracy and macro-average F1 scores:
 
 ## Conclusion and Observations
 Throughout the project, we observed that the models required a large dataset to perform optimally. Due to the size of the available dataset (approximately 4,791 entries after filtering out neutral sentiments), the ensemble approach, which ideally benefits from larger datasets, did not perform as expected. The approach itself is sound; however, the limited data volume may have constrained the effectiveness of the ensemble methods. For validation, we employed a 5-fold cross-validation technique to ensure the robustness and generalizability of our models across different subsets of data.
+
+### Research Questions and Answers
+
+**How effective are the developed Deep Learning and Machine Learning models compared to the baseline and the top participants of the Memotion competition in Task A of sentiment analysis?**
+
+Our models significantly outperformed the baseline, which had a Macro-F1 score of 0.21765. The best model, MLP in the MMFA approach, achieved a Macro F1-score of 0.5056, demonstrating superior performance. Additionally, when compared to the top participants whose scores ranged from 0.34600 to 0.35466, our models demonstrated competitive and even superior results, with several models exceeding these scores substantially.
+
+This indicates that our approaches are not only effective in surpassing the baseline but also competitive within the context of the Memotion competition, offering robust alternatives to traditional sentiment analysis methods. For more information on the competition results and baseline, see the related research paper: [Memotion Competition Analysis](https://arxiv.org/pdf/2008.03781).
