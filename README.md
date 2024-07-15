@@ -32,6 +32,17 @@ No installation is required as the project is developed in Google Colab. Users c
 ## Results
 The models were evaluated using accuracy and macro-average F1 scores:
 
+
+| Model             | Macro F1-score | Comparison with baseline (+/-) |
+|-------------------|----------------|--------------------------------|
+| Vkeswani IITK     | 0.35466        | (+)0.13701                     |
+| Guoym             | 0.35197        | (+)0.13432                     |
+| Aihaihara         | 0.35017        | (+)0.13252                     |
+| Sourya Diptadas   | 0.34885        | (+)0.13120                     |
+| Irina Bejan       | 0.34755        | (+)0.12990                     |
+| **SemEval-Baseline** | 0.2176      | -                              |
+
+
 ### Deep-Learning Approach 1: Multimodal Fusion with Self-Attention (MMFA)
 - **Results**:
   | Model              | Macro F1-score | Accuracy |
