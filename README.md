@@ -42,6 +42,7 @@ This table summarizes the performance of models from the Memotion Competition, e
 | Irina Bejan       | 0.34755        | (+)0.12990                     |
 | **SemEval-Baseline** | 0.2176      | -                              |
 
+### Our Approaches and Results
 
 ### Deep-Learning Approach 1: Multimodal Fusion with Self-Attention (MMFA)
 - **Results**:
