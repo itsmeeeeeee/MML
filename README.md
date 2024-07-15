@@ -44,7 +44,7 @@ This table summarizes the performance of models from the Memotion Competition, e
 
 ### Our Approaches and Results
 
-### Deep-Learning Approach 1: Multimodal Fusion with Self-Attention (MMFA)
+#### Deep-Learning Approach 1: Multimodal Fusion with Self-Attention (MMFA)
 - **Results**:
   | Model              | Macro F1-score | Accuracy |
   |--------------------|----------------|----------|
@@ -55,7 +55,7 @@ This table summarizes the performance of models from the Memotion Competition, e
   | MLP                | 0.5056         | 0.8993   |
   | Ensemble, Mj. Voting | 0.4701       | 0.8873   |
 
-### Deep-Learning Approach 2: Multimodal Fusion (MMF)
+#### Deep-Learning Approach 2: Multimodal Fusion (MMF)
 - **Results**:
   | Model              | Macro F1-score | Accuracy |
   |--------------------|----------------|----------|
@@ -66,7 +66,7 @@ This table summarizes the performance of models from the Memotion Competition, e
   | LSTM               | 0.5008         | 0.8906   |
   | Ensemble, Mj. Voting | 0.4701       | 0.8873   |
 
-### Machine Learning Approach Using Scikit-Learn
+#### Machine Learning Approach Using Scikit-Learn
 - **Results**:
   | Model              | Macro F1-score | Accuracy |
   |--------------------|----------------|----------|
