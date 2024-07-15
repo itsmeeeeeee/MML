@@ -30,7 +30,7 @@ All models are executed within Google Colab, ensuring easy access and reproducib
 No installation is required as the project is developed in Google Colab. Users can access and execute all files directly in the Colab environment.
 
 ## Results
-The models were evaluated using accuracy and macro-average F1 scores: For more information on the competition results and baseline, see the related research paper: [Memotion Competition Analysis](https://arxiv.org/pdf/2008.03781).
+This table summarizes the performance of models from the Memotion Competition, evaluated based on their macro-average F1 scores, with further details available in the [Memotion Competition Analysis](https://arxiv.org/pdf/2008.03781).
 
 
 | Model             | Macro F1-score | Comparison with baseline (+/-) |
