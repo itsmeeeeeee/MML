@@ -1,4 +1,4 @@
-# README: Deep Learning and Machine Learning Approaches Including Ensemble Techniques for Multimodal Sentiment Analysis
+# Deep Learning and Machine Learning Approaches Including Ensemble Techniques for Multimodal Sentiment Analysis
 
 ## Project Title
 **Deep Learning and Machine Learning Approaches Including Ensemble Techniques for Multimodal Sentiment Analysis: Memotion Classification**
